@@ -1,12 +1,19 @@
-# apollo-link-logger
+# apollo-link-logger-no-react
 
 > A logger for Apollo Link that resembles redux-logger. Doesn't require react to work.
+
+Original version:
+https://www.npmjs.com/package/apollo-link-logger
+
+Issue solved was raised here:
+https://github.com/xoredg/apollo-link-logger/issues/60
+
+This is simply an implementation of suggested fix to avoid installing react. Thanks goes to the original creators.
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
 [![version][version-badge]][package]
-[![downloads][downloads-badge]][npmtrends]
 [![Styled with Prettier][prettier-badge]][prettier]
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
@@ -30,7 +37,7 @@ local machine for development and testing purposes.
 A quick introduction of the minimal setup you need to get a hello world up & running.
 
 ```shell
-npm install apollo-link-logger
+npm install apollo-link-logger-no-react
 ```
 
 ### Prerequisites
@@ -40,7 +47,7 @@ npm install apollo-link-logger
 ### Usage
 
 ```javascript
-import apolloLogger from "apollo-link-logger";
+import apolloLogger from "apollo-link-logger-no-react";
 
 // ...
 ApolloLink.from([
@@ -76,8 +83,8 @@ Here's a brief intro about what a developer must do in order to start
 developing the project further:
 
 ```shell
-git clone https://github.com/blackxored/apollo-link-logger
-cd apollo-link-logger
+git clone https://github.com/blackxored/apollo-link-logger-no-react
+cd apollo-link-logger-no-react
 yarn
 ```
 
@@ -111,14 +118,9 @@ will and will not be tolerated.
 
 ### Contributors
 
-Thanks goes to these people ([emoji key][emojis]):
+https://github.com/DavidMusijenko
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/294597?s=460&v=4" width="100px;"/><br /><sub><b>Adam Savitzky</b></sub>](https://github.com/adambom)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=adambom "Code") | [<img src="https://avatars3.githubusercontent.com/u/3065138?v=4" width="100px;"/><br /><sub><b>Ifeanyi Oraelosi</b></sub>](https://github.com/gnerkus)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=gnerkus "Code") | [<img src="https://avatars0.githubusercontent.com/u/7076981?v=4" width="100px;"/><br /><sub><b>Romario</b></sub>](https://github.com/romarioraffington)<br />[🐛](https://github.com/blackxored/apollo-link-logger/issues?q=author%3Aromarioraffington "Bug reports") [🤔](#ideas-romarioraffington "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/6183943?v=4" width="100px;"/><br /><sub><b>Yuriy Kornienko</b></sub>](http://www.dinamchiki.ru)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=Horoshiy "Code") | [<img src="https://avatars1.githubusercontent.com/u/2717746?v=4" width="100px;"/><br /><sub><b>Dmitry Shvedov</b></sub>](https://github.com/dmt0)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=dmt0 "Code") |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
 Contributions of any kind welcome!
@@ -130,7 +132,7 @@ Contributions of any kind welcome!
 [coverage-badge]: https://img.shields.io/codecov/c/github/blackxored/apollo-link-logger.svg?style=flat-square
 [coverage]: https://codecov.io/github/blackxored/apollo-link-logger
 [version-badge]: https://img.shields.io/npm/v/apollo-link-logger.svg?style=flat-square
-[package]: https://www.npmjs.com/package/apollo-link-logger
+[package]: https://www.npmjs.com/package/apollo-link-logger-no-react
 [downloads-badge]: https://img.shields.io/npm/dm/apollo-link-logger.svg?style=flat-square
 [npmtrends]: http://www.npmtrends.com/apollo-link-logger
 [license-badge]: https://img.shields.io/npm/l/apollo-link-logger.svg?style=flat-square
