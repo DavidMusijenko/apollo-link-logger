@@ -16,16 +16,10 @@ This is simply an implementation of suggested fix to avoid installing react. Tha
 [![version][version-badge]][package]
 [![Styled with Prettier][prettier-badge]][prettier]
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
-
 [![MIT License][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
 
 Logger for Apollo Link that uses a similar format to redux-logger. Includes performance information.
 
@@ -133,7 +127,6 @@ Contributions of any kind welcome!
 [coverage]: https://codecov.io/github/blackxored/apollo-link-logger
 [version-badge]: https://img.shields.io/npm/v/apollo-link-logger.svg?style=flat-square
 [package]: https://www.npmjs.com/package/apollo-link-logger-no-react
-[downloads-badge]: https://img.shields.io/npm/dm/apollo-link-logger.svg?style=flat-square
 [npmtrends]: http://www.npmtrends.com/apollo-link-logger
 [license-badge]: https://img.shields.io/npm/l/apollo-link-logger.svg?style=flat-square
 [license]: https://github.com/blackxored/apollo-link-logger/blob/master/LICENSE.md
@@ -149,7 +142,6 @@ Contributions of any kind welcome!
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[contributing]: https://github.com/blackxored/apollo-link-logger/blob/master/CONTRIBUTING.md
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/blackxored/apollo-link-logger/blob/master/CODE_OF_CONDUCT.md
 [github-watch-badge]: https://img.shields.io/github/watchers/blackxored/apollo-link-logger.svg?style=social
@@ -158,8 +150,6 @@ Contributions of any kind welcome!
 [github-star]: https://github.com/blackxored/apollo-link-logger/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20apollo-link-logger%20by%20%40blackxored%20https%3A%2F%2Fgithub.com%2Fblackxored%2Fapollo-link-logger%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/blackxored/apollo-link-logger.svg?style=social
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-contributors
 [semver]: http://semver.org/
 [releases]: https://github.com/blackxored/apollo-link-logger/releases
 [commit-convention]: https://www.npmjs.com/package/@commitlint/config-conventional
