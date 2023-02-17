@@ -1,5 +1,5 @@
 {
-  "name": "apollo-link-logger",
+  "name": "apollo-link-logger-no-react",
   "version": "0.0.0-development",
   "description": "Logger for Apollo Link that uses a similar format to redux-logger. Includes performance information.",
   "author": "Adrian Perez adrian@adrianperez.org",

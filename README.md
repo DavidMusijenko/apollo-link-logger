@@ -1,6 +1,6 @@
 # apollo-link-logger
 
-> A logger for Apollo Link that resembles redux-logger
+> A logger for Apollo Link that resembles redux-logger. Doesn't require react to work.
 
 [![Semantically Released][semantic-release-badge]][semantic-release]
 [![Build Status][build-badge]][build]
@@ -10,7 +10,7 @@
 [![Styled with Prettier][prettier-badge]][prettier]
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
-[![MIT License][license-badge]][LICENSE]
+[![MIT License][license-badge]][license]
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
@@ -25,7 +25,7 @@ Logger for Apollo Link that uses a similar format to redux-logger. Includes perf
 ## Installing / Getting Started
 
 These instructions will get you a copy of the project up and running on your
-local machine for development and testing purposes. 
+local machine for development and testing purposes.
 
 A quick introduction of the minimal setup you need to get a hello world up & running.
 
@@ -35,16 +35,16 @@ npm install apollo-link-logger
 
 ### Prerequisites
 
-* Apollo Link.
+- Apollo Link.
 
 ### Usage
 
 ```javascript
-import apolloLogger from 'apollo-link-logger';
+import apolloLogger from "apollo-link-logger";
 
 // ...
 ApolloLink.from([
-  apolloLogger,
+  apolloLogger
   // ...
 ]);
 ```
@@ -72,7 +72,7 @@ invokes `console.log` with slightly different prefix to separate output.
 
 ### Setting up Dev
 
-Here's a brief intro about what a developer must do in order to start 
+Here's a brief intro about what a developer must do in order to start
 developing the project further:
 
 ```shell
@@ -90,12 +90,12 @@ For the versions available, see the [Releases][releases] on this repository.
 
 ## Style guide
 
-We base our code style on [AirBnB's style guide][airbnb-style] and we check with 
+We base our code style on [AirBnB's style guide][airbnb-style] and we check with
 [ESLint][eslint] and automatically format our code with [Prettier][prettier].
 
 ## License
 
-This project is licensed under the MIT License - see the 
+This project is licensed under the MIT License - see the
 [license] file for details.
 
 ## Contributing
@@ -106,7 +106,7 @@ our [Contribution Guidelines][contributing].
 ### Code of Conduct
 
 We've adopted a Code of Conduct that we expect project participants to adhere to.
-Please read the [full text][coc] so that you can understand what actions 
+Please read the [full text][coc] so that you can understand what actions
 will and will not be tolerated.
 
 ### Contributors
@@ -117,11 +117,11 @@ Thanks goes to these people ([emoji key][emojis]):
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Code") [📖](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/apollo-link-logger/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/294597?s=460&v=4" width="100px;"/><br /><sub><b>Adam Savitzky</b></sub>](https://github.com/adambom)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=adambom "Code") | [<img src="https://avatars3.githubusercontent.com/u/3065138?v=4" width="100px;"/><br /><sub><b>Ifeanyi Oraelosi</b></sub>](https://github.com/gnerkus)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=gnerkus "Code") | [<img src="https://avatars0.githubusercontent.com/u/7076981?v=4" width="100px;"/><br /><sub><b>Romario</b></sub>](https://github.com/romarioraffington)<br />[🐛](https://github.com/blackxored/apollo-link-logger/issues?q=author%3Aromarioraffington "Bug reports") [🤔](#ideas-romarioraffington "Ideas, Planning, & Feedback") | [<img src="https://avatars0.githubusercontent.com/u/6183943?v=4" width="100px;"/><br /><sub><b>Yuriy Kornienko</b></sub>](http://www.dinamchiki.ru)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=Horoshiy "Code") | [<img src="https://avatars1.githubusercontent.com/u/2717746?v=4" width="100px;"/><br /><sub><b>Dmitry Shvedov</b></sub>](https://github.com/dmt0)<br />[💻](https://github.com/blackxored/apollo-link-logger/commits?author=dmt0 "Code") |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
 Contributions of any kind welcome!
-
 
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
@@ -140,10 +140,10 @@ Contributions of any kind welcome!
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen]: http://commitizen.github.io/cz-cli/
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
-[prettier]: https://github.com/prettier/prettier 
+[prettier]: https://github.com/prettier/prettier
 [airbnb-style-badge]: https://img.shields.io/badge/code%20style-airbnb-green.svg?style=flat-square
 [airbnb-style]: https://github.com/airbnb/javascript
-[eslint]: http://eslint.org 
+[eslint]: http://eslint.org
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
@@ -161,4 +161,3 @@ Contributions of any kind welcome!
 [semver]: http://semver.org/
 [releases]: https://github.com/blackxored/apollo-link-logger/releases
 [commit-convention]: https://www.npmjs.com/package/@commitlint/config-conventional
-
